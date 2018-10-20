@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShoppingList</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <link href="css/floating-labels.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark "> 
+        <div class="container">
+            <a class="navbar-brand" href="guestshoppinglists.jsp">Shopping List</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> 
+        </div>
+    </nav>
+        <form class="form-signin" action="signup.verify" method="POST">
+            <div class="text-center mb-4">
+                <h3 class="h3 mb-3 font-weight-normal">Verification Code</h3>
+                <p> Your registration is almost completed!</p>
+                <p>Insert here the code that we've sent you in your e-mail!</p>
+            </div>
+            <div class="form-label-group">
+                <input type="text" id="code" name="code" class="form-control" placeholder="Verification Code" required autofocus>
+                <label for="code">Verification Code</label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+        </form>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>

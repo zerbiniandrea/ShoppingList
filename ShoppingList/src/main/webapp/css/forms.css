@@ -1,0 +1,26 @@
+/*
+    Document   : shoppinglists
+    Created on : 14-apr-2018, 15.16.06
+    Author     : Stefano Chirico &lt;chirico dot stefano at parcoprogetti dot com&gt;
+*/
+.red-window-close {
+    color: tomato;
+}
+.light-gray-pdf {
+    color: lightgray;
+}
+
+.select2-container {
+    width:100%;	
+}
+
+.select2-container a.select2-choice {
+    font-size: 14px;
+    height: 38px;
+    padding: 8px 12px;
+    line-height: 1.42857;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    padding-top:6px;
+}
