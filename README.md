@@ -1,7 +1,7 @@
 # ShoppingList
 
 ### Description
-ShoppingList is a Web Programming project.
+ShoppingList is a project developed during the Web Programming course at the Information Technology Bachelor's degree at the University of Trento.
 
 
 This website allows users to create shopping lists and add items to them.<br/>
